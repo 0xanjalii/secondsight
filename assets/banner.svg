@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" fill="none">
+  <!-- Crisp Stark White Background -->
+  <rect width="1200" height="420" fill="#ffffff"/>
+
+  <!-- Subtle Tactical Grid Pattern -->
+  <pattern id="dotGridLight" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#000000" opacity="0.12"/>
+  </pattern>
+  <rect width="1200" height="420" fill="url(#dotGridLight)"/>
+
+  <!-- Outer Border (Sharp, no curve) -->
+  <rect x="16" y="16" width="1168" height="388" fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- Geometric Sonar & Waveform on Right (Sharp Brutalist Blocks) -->
+  <rect x="910" y="70" width="220" height="280" fill="#f4f4f5" stroke="#000000" stroke-width="2"/>
+  <rect x="930" y="90" width="180" height="240" fill="#ffffff" stroke="#000000" stroke-width="1.5" stroke-dasharray="4 4"/>
+  
+  <!-- Waveform Rectangles (Sharp bars) -->
+  <rect x="955" y="190" width="10" height="50" fill="#000000" opacity="0.5"/>
+  <rect x="975" y="160" width="10" height="110" fill="#000000" opacity="0.8"/>
+  <rect x="995" y="130" width="10" height="170" fill="#000000"/>
+  <rect x="1015" y="110" width="10" height="210" fill="#000000"/>
+  <rect x="1035" y="140" width="10" height="150" fill="#000000"/>
+  <rect x="1055" y="170" width="10" height="90" fill="#000000" opacity="0.8"/>
+  <rect x="1075" y="200" width="10" height="30" fill="#000000" opacity="0.5"/>
+
+  <!-- Top Brutalist Pill Badge (Sharp rectangle) -->
+  <rect x="60" y="55" width="380" height="34" fill="#000000"/>
+  <rect x="74" y="68" width="8" height="8" fill="#ffffff"/>
+  <text x="94" y="77" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" letter-spacing="2">INDEPENDENT LIVING • VOICE AI</text>
+
+  <!-- Main Headline Typography -->
+  <text x="60" y="165" fill="#000000" font-family="'Space Grotesk', 'Plus Jakarta Sans', sans-serif" font-size="70" font-weight="900" letter-spacing="-2">SECONDSIGHT</text>
+
+  <!-- Subheadline -->
+  <text x="60" y="215" fill="#3f3f46" font-family="'Space Grotesk', 'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700" letter-spacing="1">GUIDED BY LUMEN • REAL-TIME VOICE</text>
+
+  <!-- Divider Line -->
+  <line x1="60" y1="245" x2="840" y2="245" stroke="#000000" stroke-width="2"/>
+
+  <!-- 4 Sharp Feature Pillar Blocks -->
+  <g transform="translate(60, 275)">
+    <!-- Pillar 1 -->
+    <rect x="0" y="0" width="180" height="66" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text x="16" y="24" fill="#71717a" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">AUDIO ENGINE</text>
+    <text x="16" y="50" fill="#000000" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="800">Natural Voice</text>
+
+    <!-- Pillar 2 -->
+    <rect x="195" y="0" width="180" height="66" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text x="211" y="24" fill="#71717a" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">TIME TO AUDIO</text>
+    <text x="211" y="50" fill="#000000" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="800">&lt; 100ms TTFB</text>
+
+    <!-- Pillar 3 -->
+    <rect x="390" y="0" width="180" height="66" fill="#000000"/>
+    <text x="406" y="24" fill="#a1a1aa" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">INTERRUPTION</text>
+    <text x="406" y="50" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="800">Instant Barge-In</text>
+
+    <!-- Pillar 4 -->
+    <rect x="585" y="0" width="180" height="66" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text x="601" y="24" fill="#71717a" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">ACCESSIBILITY</text>
+    <text x="601" y="50" fill="#000000" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="800">WCAG AAA Standard</text>
+  </g>
+</svg>

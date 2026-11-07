@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Square Outer Base (No curves) -->
+  <rect width="64" height="64" fill="#000000"/>
+  <!-- Concentric Square Sonar Frames (Brutalist Geometric Sound & Vision) -->
+  <rect x="8" y="8" width="48" height="48" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+  <rect x="16" y="16" width="32" height="32" stroke="#ffffff" stroke-width="2.5"/>
+  <!-- Center Pupil Square -->
+  <rect x="26" y="26" width="12" height="12" fill="#ffffff"/>
+  <rect x="29" y="29" width="6" height="6" fill="#000000"/>
+</svg>
