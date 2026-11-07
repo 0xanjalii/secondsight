@@ -294,11 +294,15 @@ app.get('*path', (_req, res, next) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`\n======================================================`);
-  console.log(` SecondSight Visual Companion Server`);
-  console.log(` Powered by Lumen AI & AssemblyAI Voice Stack`);
-  console.log(` Local URL: http://localhost:${port}`);
-  console.log(` Status: AssemblyAI [${Boolean(aai)}], OpenRouter [${Boolean(openRouterKey)}]`);
-  console.log(`======================================================\n`);
-});
+if (!process.env.VERCEL) {
+  app.listen(port, () => {
+    console.log(`\n======================================================`);
+    console.log(` SecondSight Visual Companion Server`);
+    console.log(` Powered by Lumen AI & AssemblyAI Voice Stack`);
+    console.log(` Local URL: http://localhost:${port}`);
+    console.log(` Status: AssemblyAI [${Boolean(aai)}], OpenRouter [${Boolean(openRouterKey)}]`);
+    console.log(`======================================================\n`);
+  });
+}
+
+export default app;
